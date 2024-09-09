@@ -7,7 +7,9 @@
 2. Link the project to your Github account
 
 3. Let him autodetect and deploy your app
-
+    - settings > network > generate domain
+    - Launch command `gunicorn --bind 0.0.0.0:8000 mon_site.wsgi:application`
+    
 ## Development
 
 ### Version
