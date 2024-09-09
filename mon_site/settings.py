@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-#_0x(fow6%9eaan72#s2_k-g2=7j_z_)iwcx7er6wd3vw^)a_+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["fastdeploydjango-production.up.railway.app"]
 
 
 # Application definition
@@ -138,6 +138,7 @@ REST_FRAMEWORK = {
     "EXCEPTION_HANDLER": "mon_site.settings.custom_exception_handler",
     "NON_FIELD_ERRORS_KEY": "error",
 }
+
 
 from django.http import JsonResponse
 from rest_framework import status
